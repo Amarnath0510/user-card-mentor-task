@@ -1,0 +1,113 @@
+HTML
+
+<section>
+  <div class= "office">
+  
+  
+</div>
+  <div class="card-container">
+  <h2>
+    Get <span class="insight">insights</span> that help your business grow
+  </h2>
+  <p class="card-info">Discover the benefits of data analytics and make better decisionss regarding revenue,customer experience,and overall efficiency</p>
+  
+  </div>
+  <div class="workspace">
+    <div>
+      <p class="card-count">10k+</P>
+    <p>companies</p>
+  </div>
+  <div>
+    <p class="card-count">314</p>
+    <p>templates</p>
+  </div>
+  <div>
+    <p class="card-count">12M+</p>
+    <p>Queries</p>
+  </div>
+  </div>
+  
+
+</section>
+
+------------------------------------------------------------------------
+CSS
+.office{
+    background: url("https://commercialobserver.com/wp-content/uploads/sites/3/2020/06/Hero-image-office.jpg")violet  no-repeat;
+    min-height:16rem;
+    background-blend-mode: luminosity;
+    background-size: cover;
+  } 
+.insight{
+  color:violet;
+}
+.workspace{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-content:center;
+}
+section{
+  background:black;
+    color:white;
+  text-align:center;
+  margin-bottom:0rem;
+  margin-top:0rem;
+ overflow:hidden;
+  padding:1px;
+  border-radius:1rem;
+  
+  
+ 
+  
+}
+
+.card-count{
+  font-wieght:bold;
+  font-size:0.8rem;
+  margin-bottom:2px;
+  text-transform:uppercase;
+  
+  
+}
+.card-count + p{
+  text-transform:uppercase;
+  font-size:0.8rem;
+  margin: 0;
+  letter-spacing:2px;
+  
+} 
+@media (min-width: 439px){
+  section{
+    display:flex;
+    flex-direction:row-reverse;
+    text-align:left;
+    max-width:40rem;
+  }
+  .office{
+    min-width:15rem;
+    
+  }
+  .card-count{
+    
+    flex-direction:row;
+    justify-content:space-between;
+  }
+}
+body{
+  hieght:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+
+
+
+
+
+
+
+
+
